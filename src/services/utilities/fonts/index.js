@@ -1,11 +1,16 @@
 import {totalSize} from 'react-native-dimension';
 
 const fontFamily = {
-  appTextLight: 'Raleway-Light',
-  appTextRegular: 'Raleway-Regular',
-  appTextMedium: 'Raleway-Medium',
-  appTextBold: 'Raleway-Bold',
-  appTextExtraBold: 'Raleway-ExtraBold',
+  // appTextLight: 'Raleway-Light',
+  // appTextRegular: 'Raleway-Regular',
+  // appTextMedium: 'Raleway-Medium',
+  // appTextBold: 'Raleway-Bold',
+  // appTextExtraBold: 'Raleway-ExtraBold',
+  appTextLight: 'Roboto-Light',
+  appTextRegular: 'Roboto-Regular',
+  appTextMedium: 'Roboto-Medium',
+  appTextBold: 'Roboto-Bold',
+  // appTextExtraBold: 'Roboto-ExtraBold',
 };
 const fontSize = {
   h1: totalSize(4.5),
@@ -15,6 +20,7 @@ const fontSize = {
   h5: totalSize(2.5),
   h6: totalSize(2),
   input: totalSize(1.75),
+  extraLarge: totalSize(2.2),
   large: totalSize(2),
   medium: totalSize(1.75),
   regular: totalSize(1.6),
